@@ -17,7 +17,7 @@ public:
 
         // If no face detected, show "Looking to a bitch" in the middle of the screen with transparency
         if (faces.empty()) {
-            displayTransparentText(img, "Looking to a bitch");
+            displayTransparentText(img, "Looking for a bitch");
         }
 
         // For each face detected, draw rectangle and show message
@@ -47,7 +47,7 @@ private:
         cv::putText(overlay, text, textOrg, cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(255, 0, 0), 2);
 
         // Blend the overlay with the original image
-        double alpha = 0.5;  // Transparency factor
+        double alpha = 0.8;  // Transparency factor
         cv::addWeighted(overlay, alpha, img, 1 - alpha, 0, img);
     }
 };
@@ -81,11 +81,6 @@ int main() {
         }
 
         detector.detect(frame);
-
-        // Display FPS
-        double fps = cap.get(cv::CAP_PROP_FPS);
-        cv::putText(frame, "FPS: " + std::to_string((int)fps), cv::Point(10, 30),
-                    cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(0, 255, 0), 2);
 
         cv::imshow("Face Detection", frame);
 

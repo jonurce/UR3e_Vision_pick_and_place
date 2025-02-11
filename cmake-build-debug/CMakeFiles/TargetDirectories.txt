@@ -1,0 +1,7 @@
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/CMakeFiles/face.dir
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/CMakeFiles/aruco_cam.dir
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/aruco/CMakeFiles/aruco.dir
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/aruco/CMakeFiles/edit_cache.dir
+C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug/aruco/CMakeFiles/rebuild_cache.dir

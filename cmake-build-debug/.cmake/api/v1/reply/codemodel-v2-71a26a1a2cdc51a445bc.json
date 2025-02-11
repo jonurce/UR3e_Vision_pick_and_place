@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "aruco",
+					"jsonFile" : "directory-aruco-Debug-e503b3fcb18af5fa5b60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "aruco",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "UR3e_Vision_pick_and_place",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "aruco::@8ad9e4e8a3aeea3ad257",
+					"jsonFile" : "target-aruco-Debug-681bb805f743a2d7cf54.json",
+					"name" : "aruco",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_cam::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_cam-Debug-68818bbbe33a68507b59.json",
+					"name" : "aruco_cam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "face::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-face-Debug-dceb1a3768b94db541b8.json",
+					"name" : "face",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place/cmake-build-debug",
+		"source" : "C:/Users/jonur/Workspace/UR3e_Vision_pick_and_place"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

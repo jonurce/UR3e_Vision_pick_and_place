@@ -6,12 +6,15 @@ set(OpenCV_DIR "C:/dev/opencv/build")
 
 find_package(OpenCV REQUIRED)
 
+add_subdirectory(aruco)
+
 file(COPY "data" DESTINATION "${CMAKE_CURRENT_BINARY_DIR}")
 
-add_executable(main main.cpp)
-target_link_libraries(main PRIVATE ${OpenCV_LIBS})
-target_include_directories(main PRIVATE ${OpenCV_INCLUDE_DIRS})
+add_executable(face face.cpp)
+target_link_libraries(face PRIVATE ${OpenCV_LIBS})
 
+add_executable(aruco_cam aruco.cpp)
+target_link_libraries(aruco_cam PRIVATE ${OpenCV_LIBS} aruco)
 
 
 

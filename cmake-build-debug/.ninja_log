@@ -1,0 +1,9 @@
+# ninja log v6
+3	2940	7609865644680532	CMakeFiles/face.dir/face.cpp.obj	dc7af5b6c6dc78fa
+2946	4196	7609865674124536	face.exe	9f60842a96856dc4
+6	1230	7609866093640880	aruco/CMakeFiles/aruco.dir/src/aruco.cpp.obj	26e7f05d36682460
+20	1238	7609866093774359	aruco/CMakeFiles/aruco.dir/src/aruco_calib.cpp.obj	ccc15cf55919e880
+33	1292	7609866093909528	aruco/CMakeFiles/aruco.dir/src/charuco.cpp.obj	1ce6c061c631ac4a
+1293	1462	7609866106508868	aruco/aruco.lib	78df71d7ffb5247d
+51	2512	7609866094099619	CMakeFiles/aruco_cam.dir/aruco.cpp.obj	da7c94edbfd4070f
+2513	3551	7609866118704026	aruco_cam.exe	1207ba624a2d7fbb
