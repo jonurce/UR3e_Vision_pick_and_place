@@ -1,6 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <filesystem>
+#include <torch/torch.h>
 
 class FaceDetector {
 public:
@@ -93,6 +94,9 @@ int main() {
     cap.release();
     cv::destroyAllWindows();
     std::cout << "Exiting face detection. Goodbye!" << std::endl;
+
+    torch::Tensor tensor = torch::rand({2, 3});
+    std::cout << tensor << std::endl;
 
     return 0;
 }
